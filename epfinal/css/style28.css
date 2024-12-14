@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(10, 216, 243);
+    overflow-x: hidden;
+}
+.copo-nieve{
+    width: 20px;
+    height: 20px;
+    /*background-color: rgb(35, 134, 149);*/
+    background-image:url("../img/coconieve.svg") ;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotar 2s infinite linear ;
+}
+@keyframes rotar {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}

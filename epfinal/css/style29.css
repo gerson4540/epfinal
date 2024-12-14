@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#personajes {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px; /* Ajusta según el tamaño de tus sprites */
+    height: auto;
+}
